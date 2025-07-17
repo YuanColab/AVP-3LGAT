@@ -1,0 +1,202 @@
+{
+  "comparison_data": [
+    {
+      "Distance": "4.0A",
+      "GAT_Model": "2-Layer GAT",
+      "Layers": 2,
+      "accuracy": "0.819",
+      "sensitivity": "0.815",
+      "specificity": "0.820",
+      "f1": "0.576",
+      "mcc": "0.508",
+      "auc": "0.911"
+    },
+    {
+      "Distance": "4.0A",
+      "GAT_Model": "3-Layer GAT",
+      "Layers": 3,
+      "accuracy": "0.841",
+      "sensitivity": "0.802",
+      "specificity": "0.848",
+      "f1": "0.603",
+      "mcc": "0.537",
+      "auc": "0.913"
+    },
+    {
+      "Distance": "8.0A",
+      "GAT_Model": "2-Layer GAT",
+      "Layers": 2,
+      "accuracy": "0.826",
+      "sensitivity": "0.822",
+      "specificity": "0.827",
+      "f1": "0.588",
+      "mcc": "0.522",
+      "auc": "0.912"
+    },
+    {
+      "Distance": "8.0A",
+      "GAT_Model": "3-Layer GAT",
+      "Layers": 3,
+      "accuracy": "0.835",
+      "sensitivity": "0.806",
+      "specificity": "0.841",
+      "f1": "0.597",
+      "mcc": "0.530",
+      "auc": "0.913"
+    },
+    {
+      "Distance": "12.0A",
+      "GAT_Model": "2-Layer GAT",
+      "Layers": 2,
+      "accuracy": "0.829",
+      "sensitivity": "0.823",
+      "specificity": "0.830",
+      "f1": "0.593",
+      "mcc": "0.528",
+      "auc": "0.914"
+    },
+    {
+      "Distance": "12.0A",
+      "GAT_Model": "3-Layer GAT",
+      "Layers": 3,
+      "accuracy": "0.814",
+      "sensitivity": "0.819",
+      "specificity": "0.813",
+      "f1": "0.570",
+      "mcc": "0.502",
+      "auc": "0.909"
+    }
+  ],
+  "best_configurations": {
+    "Accuracy": {
+      "distance": "4.0A",
+      "gat_model": "3-Layer GAT",
+      "layers": 3,
+      "score": 0.841
+    },
+    "Sensitivity": {
+      "distance": "12.0A",
+      "gat_model": "2-Layer GAT",
+      "layers": 2,
+      "score": 0.823
+    },
+    "Specificity": {
+      "distance": "4.0A",
+      "gat_model": "3-Layer GAT",
+      "layers": 3,
+      "score": 0.848
+    },
+    "F1 Score": {
+      "distance": "4.0A",
+      "gat_model": "3-Layer GAT",
+      "layers": 3,
+      "score": 0.603
+    },
+    "MCC": {
+      "distance": "4.0A",
+      "gat_model": "3-Layer GAT",
+      "layers": 3,
+      "score": 0.537
+    },
+    "AUC": {
+      "distance": "12.0A",
+      "gat_model": "2-Layer GAT",
+      "layers": 2,
+      "score": 0.914
+    }
+  },
+  "summary": {
+    "total_test_experiments": 6,
+    "tested_distances": [
+      "4.0A",
+      "8.0A",
+      "12.0A"
+    ],
+    "tested_gat_models": [
+      "2-Layer GAT",
+      "3-Layer GAT"
+    ]
+  },
+  "best_configurations_formatted": {
+    "Accuracy": {
+      "config": "3-Layer GAT on 4.0A",
+      "performance": "0.841"
+    },
+    "Sensitivity": {
+      "config": "2-Layer GAT on 12.0A",
+      "performance": "0.823"
+    },
+    "Specificity": {
+      "config": "3-Layer GAT on 4.0A",
+      "performance": "0.848"
+    },
+    "F1 Score": {
+      "config": "3-Layer GAT on 4.0A",
+      "performance": "0.603"
+    },
+    "MCC": {
+      "config": "3-Layer GAT on 4.0A",
+      "performance": "0.537"
+    },
+    "AUC": {
+      "config": "2-Layer GAT on 12.0A",
+      "performance": "0.914"
+    }
+  },
+  "formatted_results": {
+    "4.0A": {
+      "2-Layer GAT": {
+        "accuracy": "0.819",
+        "sensitivity": "0.815",
+        "specificity": "0.820",
+        "f1": "0.576",
+        "mcc": "0.508",
+        "auc": "0.911"
+      },
+      "3-Layer GAT": {
+        "accuracy": "0.841",
+        "sensitivity": "0.802",
+        "specificity": "0.848",
+        "f1": "0.603",
+        "mcc": "0.537",
+        "auc": "0.913"
+      }
+    },
+    "8.0A": {
+      "2-Layer GAT": {
+        "accuracy": "0.826",
+        "sensitivity": "0.822",
+        "specificity": "0.827",
+        "f1": "0.588",
+        "mcc": "0.522",
+        "auc": "0.912"
+      },
+      "3-Layer GAT": {
+        "accuracy": "0.835",
+        "sensitivity": "0.806",
+        "specificity": "0.841",
+        "f1": "0.597",
+        "mcc": "0.530",
+        "auc": "0.913"
+      }
+    },
+    "12.0A": {
+      "2-Layer GAT": {
+        "accuracy": "0.829",
+        "sensitivity": "0.823",
+        "specificity": "0.830",
+        "f1": "0.593",
+        "mcc": "0.528",
+        "auc": "0.914"
+      },
+      "3-Layer GAT": {
+        "accuracy": "0.814",
+        "sensitivity": "0.819",
+        "specificity": "0.813",
+        "f1": "0.570",
+        "mcc": "0.502",
+        "auc": "0.909"
+      }
+    }
+  }
+}
