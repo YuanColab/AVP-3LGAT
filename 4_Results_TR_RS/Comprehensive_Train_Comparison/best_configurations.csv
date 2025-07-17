@@ -1,0 +1,7 @@
+Metric,Best_Configuration,Performance,Score,Std
+Accuracy,3Layer_GAT on 4.0A,0.820 ± 0.012,0.82,0.012
+Sensitivity/SN/Recall,2Layer_GAT on 12.0A,0.833 ± 0.017,0.833,0.017
+Specificity/SP,3Layer_GAT on 4.0A,0.819 ± 0.037,0.819,0.037
+F1 Score,3Layer_GAT on 4.0A,0.806 ± 0.008,0.806,0.008
+MCC,3Layer_GAT on 4.0A,0.640 ± 0.019,0.64,0.019
+AUC,2Layer_GAT on 8.0A,0.908 ± 0.001,0.908,0.001
