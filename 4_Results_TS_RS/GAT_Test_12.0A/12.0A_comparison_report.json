@@ -1,0 +1,59 @@
+{
+  "distance": "12.0A",
+  "test_comparison_table": [
+    {
+      "GAT_Model": "2-Layer GAT",
+      "Layers": 2,
+      "accuracy": 0.829,
+      "sensitivity": 0.823,
+      "specificity": 0.83,
+      "f1": 0.593,
+      "mcc": 0.528,
+      "auc": 0.914,
+      "precision": 0.463
+    },
+    {
+      "GAT_Model": "3-Layer GAT",
+      "Layers": 3,
+      "accuracy": 0.814,
+      "sensitivity": 0.819,
+      "specificity": 0.813,
+      "f1": 0.57,
+      "mcc": 0.502,
+      "auc": 0.909,
+      "precision": 0.438
+    }
+  ],
+  "best_models": {
+    "accuracy": [
+      "2-Layer GAT",
+      0.829
+    ],
+    "sensitivity": [
+      "2-Layer GAT",
+      0.823
+    ],
+    "specificity": [
+      "2-Layer GAT",
+      0.83
+    ],
+    "f1": [
+      "2-Layer GAT",
+      0.593
+    ],
+    "mcc": [
+      "2-Layer GAT",
+      0.528
+    ],
+    "auc": [
+      "2-Layer GAT",
+      0.914
+    ],
+    "precision": [
+      "2-Layer GAT",
+      0.463
+    ]
+  },
+  "total_models_tested": 2,
+  "timestamp": "2025-06-26T23:12:08.384741"
+}

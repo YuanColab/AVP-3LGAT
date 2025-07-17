@@ -1,0 +1,2 @@
+accuracy,precision,recall,f1,auc,mcc,sensitivity,specificity,ppv,npv,true_positive,true_negative,false_positive,false_negative
+0.814,0.438,0.819,0.57,0.909,0.502,0.819,0.813,0.438,0.962,1149,6417,1477,254

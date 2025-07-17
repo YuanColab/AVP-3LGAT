@@ -1,0 +1,25 @@
+{
+  "model_name": "2-Layer GAT",
+  "distance": "12.0A",
+  "test_performance": {
+    "accuracy": 0.829,
+    "precision": 0.463,
+    "recall": 0.823,
+    "f1": 0.593,
+    "auc": 0.914,
+    "mcc": 0.528,
+    "sensitivity": 0.823,
+    "specificity": 0.83,
+    "ppv": 0.463,
+    "npv": 0.964,
+    "true_positive": 1155,
+    "true_negative": 6555,
+    "false_positive": 1339,
+    "false_negative": 248
+  },
+  "test_info": {
+    "total_samples": 9297,
+    "avp_samples": 1403,
+    "non_avp_samples": 7894
+  }
+}
