@@ -1,0 +1,32 @@
+{
+  "step": "Step 3 - CSV to FASTA Conversion",
+  "output_base_path": "1_Data/Processed_data_set/Final_merged_data_set/TS",
+  "random_seed": 42,
+  "csv_success": true,
+  "fasta_success": true,
+  "duplicate_info": {
+    "total_duplicates": 4,
+    "duplicate_groups": 2,
+    "fixes_applied": 2
+  },
+  "final_statistics": {
+    "total_sequences": 9297,
+    "unique_ids": 9297,
+    "dataset_counts": {
+      "TS_non_AVP": 7894,
+      "TS_AVP": 1403
+    },
+    "label_counts": {
+      "0": 7894,
+      "1": 1403
+    },
+    "type_counts": {
+      "non_AVP": 7894,
+      "AVP": 1403
+    }
+  },
+  "files_created": {
+    "csv_file": "1_Data/Processed_data_set/Final_merged_data_set/TS.csv",
+    "fasta_file": "1_Data/Processed_data_set/Final_merged_data_set/TS.fasta"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "step": "Step 2 - Overlap Analysis and Dataset Independence",
+  "statistics": {
+    "label_conflicts": {
+      "conflict_sequences_count": 521,
+      "conflict_records_count": 521
+    },
+    "removal_stats": {
+      "Initial_TS_AVP": {
+        "original": 4993,
+        "cleaned": 4474,
+        "removed": 519,
+        "removal_rate": 10.394552373322652
+      },
+      "Initial_TS_non_AVP": {
+        "original": 9402,
+        "cleaned": 9172,
+        "removed": 230,
+        "removal_rate": 2.446288023824718
+      },
+      "Initial_TR_AVP": {
+        "original": 3412,
+        "cleaned": 3091,
+        "removed": 321,
+        "removal_rate": 9.40797186400938
+      },
+      "Initial_TR_non_AVP": {
+        "original": 4049,
+        "cleaned": 3719,
+        "removed": 330,
+        "removal_rate": 8.150160533465053
+      }
+    },
+    "final_datasets": {
+      "TS_AVP": 1403,
+      "TS_non_AVP": 7894,
+      "TR_AVP": 3091,
+      "TR_non_AVP": 3719
+    },
+    "independence_verification": {
+      "passed": true,
+      "overlaps_found": []
+    },
+    "summary": {
+      "initial_total": 21856,
+      "final_total": 16107,
+      "reduction": 5749,
+      "reduction_rate": 26.303989751098094
+    }
+  },
+  "saved_files": {
+    "TS_AVP": "1_Data/Processed_data_set/Final_merged_data_set/TS_AVP.csv",
+    "TS_non_AVP": "1_Data/Processed_data_set/Final_merged_data_set/TS_non_AVP.csv",
+    "TR_AVP": "1_Data/Processed_data_set/Final_merged_data_set/TR_AVP.csv",
+    "TR_non_AVP": "1_Data/Processed_data_set/Final_merged_data_set/TR_non_AVP.csv"
+  },
+  "verification_passed": true
+}

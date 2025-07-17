@@ -1,0 +1,180 @@
+{
+  "step": "Complete Step 1 Processing",
+  "internal_avp_stats": {
+    "DRAVP": {
+      "step0_original": 1986,
+      "step1_after_natural_aa": 1756,
+      "step2_after_length": 1714,
+      "step3_final": 1608,
+      "removed_non_natural_aa": "230",
+      "removed_too_short": "17",
+      "removed_too_long": "25",
+      "removed_duplicates": 106
+    },
+    "AVPdb": {
+      "step0_original": 2059,
+      "step1_after_natural_aa": 2058,
+      "step2_after_length": 2024,
+      "step3_final": 1784,
+      "removed_non_natural_aa": "1",
+      "removed_too_short": "15",
+      "removed_too_long": "19",
+      "removed_duplicates": 240
+    },
+    "ACovPepDB": {
+      "step0_original": 518,
+      "step1_after_natural_aa": 381,
+      "step2_after_length": 350,
+      "step3_final": 149,
+      "removed_non_natural_aa": "137",
+      "removed_too_short": "0",
+      "removed_too_long": "31",
+      "removed_duplicates": 201
+    },
+    "HIPdb": {
+      "step0_original": 981,
+      "step1_after_natural_aa": 979,
+      "step2_after_length": 950,
+      "step3_final": 858,
+      "removed_non_natural_aa": "2",
+      "removed_too_short": "23",
+      "removed_too_long": "6",
+      "removed_duplicates": 92
+    },
+    "CAMP": {
+      "step0_original": 1087,
+      "step1_after_natural_aa": 951,
+      "step2_after_length": 905,
+      "step3_final": 898,
+      "removed_non_natural_aa": "136",
+      "removed_too_short": "16",
+      "removed_too_long": "30",
+      "removed_duplicates": 7
+    },
+    "DBAASP": {
+      "step0_original": 1488,
+      "step1_after_natural_aa": 1263,
+      "step2_after_length": 1220,
+      "step3_final": 1142,
+      "removed_non_natural_aa": "225",
+      "removed_too_short": "19",
+      "removed_too_long": "24",
+      "removed_duplicates": 78
+    },
+    "DRAMP": {
+      "step0_original": 2004,
+      "step1_after_natural_aa": 1771,
+      "step2_after_length": 1672,
+      "step3_final": 1575,
+      "removed_non_natural_aa": "233",
+      "removed_too_short": "17",
+      "removed_too_long": "82",
+      "removed_duplicates": 97
+    },
+    "dbAMP_AntiHIV": {
+      "step0_original": 1024,
+      "step1_after_natural_aa": 1024,
+      "step2_after_length": 972,
+      "step3_final": 970,
+      "removed_non_natural_aa": "0",
+      "removed_too_short": "23",
+      "removed_too_long": "29",
+      "removed_duplicates": 2
+    },
+    "dbAMP_Antiviral": {
+      "step0_original": 2018,
+      "step1_after_natural_aa": 1891,
+      "step2_after_length": 1691,
+      "step3_final": 1691,
+      "removed_non_natural_aa": "127",
+      "removed_too_short": "27",
+      "removed_too_long": "173",
+      "removed_duplicates": 0
+    },
+    "Peptipedia": {
+      "step0_original": 5899,
+      "step1_after_natural_aa": 5177,
+      "step2_after_length": 4856,
+      "step3_final": 4856,
+      "removed_non_natural_aa": "722",
+      "removed_too_short": "85",
+      "removed_too_long": "236",
+      "removed_duplicates": 0
+    }
+  },
+  "internal_non_avp_stats": {
+    "step0_original": 13124,
+    "step1_after_natural_aa": 12513,
+    "step2_after_length": 12513,
+    "step3_final": 9402,
+    "removed_non_natural_aa": "611",
+    "removed_too_short": "0",
+    "removed_too_long": "0",
+    "removed_duplicates": 3111
+  },
+  "external_stats": {
+    "Stack-AVP-TR_pos": {
+      "step0_original": 2290,
+      "step1_after_natural_aa": 2290,
+      "step2_after_length": 2290,
+      "step3_final": 2290,
+      "removed_non_natural_aa": "0",
+      "removed_too_short": "0",
+      "removed_too_long": "0",
+      "removed_duplicates": 0,
+      "type": "AVP"
+    },
+    "Stack-AVP-TR_neg": {
+      "step0_original": 2311,
+      "step1_after_natural_aa": 2311,
+      "step2_after_length": 2311,
+      "step3_final": 2311,
+      "removed_non_natural_aa": "0",
+      "removed_too_short": "0",
+      "removed_too_long": "0",
+      "removed_duplicates": 0,
+      "type": "non_AVP"
+    },
+    "AVP-HNCL_non-AMP": {
+      "step0_original": 4258,
+      "step1_after_natural_aa": 4258,
+      "step2_after_length": 2232,
+      "step3_final": 2232,
+      "removed_non_natural_aa": "0",
+      "removed_too_short": "0",
+      "removed_too_long": "2026",
+      "removed_duplicates": 0,
+      "original_avp_count": 2129,
+      "original_non_avp_count": 2129,
+      "filtered_avp_count": 2088,
+      "filtered_non_avp_count": 144
+    },
+    "AVP-HNCL_non-AVP": {
+      "step0_original": 4258,
+      "step1_after_natural_aa": 4258,
+      "step2_after_length": 3692,
+      "step3_final": 3692,
+      "removed_non_natural_aa": "0",
+      "removed_too_short": "0",
+      "removed_too_long": "566",
+      "removed_duplicates": 0,
+      "original_avp_count": 2129,
+      "original_non_avp_count": 2129,
+      "filtered_avp_count": 2088,
+      "filtered_non_avp_count": 1604
+    }
+  },
+  "final_summary": {
+    "internal_avp_count": 4993,
+    "internal_non_avp_count": 9402,
+    "external_avp_count": 3412,
+    "external_non_avp_count": 4049,
+    "grand_total": 21856
+  },
+  "saved_files": {
+    "external_avp": "1_Data/Processed_data_set/Initial_merged_data_set/Initial_TR_AVP.csv",
+    "external_non_avp": "1_Data/Processed_data_set/Initial_merged_data_set/Initial_TR_non_AVP.csv",
+    "internal_avp": "1_Data/Processed_data_set/Initial_merged_data_set/Initial_TS_AVP.csv",
+    "internal_non_avp": "1_Data/Processed_data_set/Initial_merged_data_set/Initial_TS_non_AVP.csv"
+  }
+}

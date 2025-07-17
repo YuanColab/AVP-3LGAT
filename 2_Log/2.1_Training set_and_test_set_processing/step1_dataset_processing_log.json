@@ -1,0 +1,58 @@
+{
+  "step": "Step 1 - Dataset Processing",
+  "total_files_saved": 4,
+  "datasets": [
+    {
+      "dataset": "External Avp",
+      "sequences": 3412,
+      "file_path": "1_Data/Processed_data_set/Initial_merged_data_set/Initial_TR_AVP.csv",
+      "columns": [
+        "Id",
+        "Sequence",
+        "Source",
+        "Length",
+        "Label",
+        "Type"
+      ]
+    },
+    {
+      "dataset": "External Non Avp",
+      "sequences": 4049,
+      "file_path": "1_Data/Processed_data_set/Initial_merged_data_set/Initial_TR_non_AVP.csv",
+      "columns": [
+        "Id",
+        "Sequence",
+        "Source",
+        "Length",
+        "Label",
+        "Type"
+      ]
+    },
+    {
+      "dataset": "Internal Avp",
+      "sequences": 4993,
+      "file_path": "1_Data/Processed_data_set/Initial_merged_data_set/Initial_TS_AVP.csv",
+      "columns": [
+        "Id",
+        "Sequence",
+        "Source",
+        "Length",
+        "Label",
+        "Type"
+      ]
+    },
+    {
+      "dataset": "Internal Non Avp",
+      "sequences": 9402,
+      "file_path": "1_Data/Processed_data_set/Initial_merged_data_set/Initial_TS_non_AVP.csv",
+      "columns": [
+        "Id",
+        "Sequence",
+        "Source",
+        "Length",
+        "Label",
+        "Type"
+      ]
+    }
+  ]
+}
