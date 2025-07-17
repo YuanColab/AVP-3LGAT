@@ -1,0 +1,25 @@
+{
+  "model_name": "3-Layer GAT",
+  "distance": "8.0A",
+  "test_performance": {
+    "accuracy": 0.835,
+    "precision": 0.473,
+    "recall": 0.806,
+    "f1": 0.597,
+    "auc": 0.913,
+    "mcc": 0.53,
+    "sensitivity": 0.806,
+    "specificity": 0.841,
+    "ppv": 0.473,
+    "npv": 0.961,
+    "true_positive": 1131,
+    "true_negative": 6636,
+    "false_positive": 1258,
+    "false_negative": 272
+  },
+  "test_info": {
+    "total_samples": 9297,
+    "avp_samples": 1403,
+    "non_avp_samples": 7894
+  }
+}
